@@ -20,12 +20,13 @@
 
 	<div id="contentWrapper" data-ng-controller="gameController">
 		<div id="outputWindow">
-			<p>You find yourself in a dark room...</p>
-			<p >{{player.lastCommand}}</p> 
+			<p>{{currOutput}}</p>
+			<p >{{player.lastCommands}}</p> 
 		</div>
 		<div id="inputWindow">
 			<p>outout</p>
-			<form ng-submit="submit()" enter text and hit enter:>
+			<form ng-submit="submit()" >
+				enter text and hit enter:
 				<input type="text" ng-model="currInput" name="commands"/>
 			</form>
 		</div>
