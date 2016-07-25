@@ -1,0 +1,22 @@
+* {
+    font-family: 'Lato', serif;
+}
+
+#contentWrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #CCE3EB;
+    padding-bottom: 50px;
+}
+#outputWindow{
+    background-color: #800000;
+    padding: 25px;
+}
+#outputWindow p{
+    color:#FFFFFF;
+}
+#inputWindow{
+    margin-top: 50px;
+    background-color: #ff5733;
+    padding: 25px;
+}
