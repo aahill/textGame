@@ -1,0 +1,8 @@
+{
+    "rooms": {
+        "room1": [
+            {"text":"Sentra", "doors":4}],
+        "room2": [
+            {"model":"Taurus", "doors":4}]
+    }
+}
