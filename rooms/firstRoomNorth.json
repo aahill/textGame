@@ -1,0 +1,9 @@
+{ 
+    "text":"congradulations, you just made babby's first step", 
+    "items":["gargle-blaster", "tasty burger"],
+    "npcs" : "",
+    "north_room": "",
+    "east_room": "",
+    "south_room": "firstRoom",
+    "west_room": ""
+    }

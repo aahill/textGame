@@ -1,6 +1,9 @@
 * {
     font-family: 'Lato', serif;
 }
+html,body{
+    height: 100%;
+}
 
 #contentWrapper{
     height: 100%;
@@ -8,9 +11,22 @@
     background-color: #CCE3EB;
     padding-bottom: 50px;
 }
+
+#inputBox{
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
 #outputWindow{
-    background-color: #800000;
+    background-color: #666666;/*#800000;*/
     padding: 25px;
+    height: 100%;
 }
 #outputWindow p{
     color:#FFFFFF;

@@ -1,6 +1,24 @@
 { 
-    "text":"darkness abounds", 
-    "items":["gargle-blaster"],
-    "chars":""
-
+    "text":"Here it is, parked on this parched and expansive land. The crows' yowls pierce the dusky sky like knives through, and the hills, also unyielding, play host and home to cacti and shrub alike. None of that matters though, for horror unyet explored lies to the NORTH. The taco truck lays in ruin; years of neglect sticking to its chassis. If you can find the back doors, surely unfathomable riches await. Y'know, maybe...", 
+    "items":["gargle-blaster", "tasty burger"],
+    "npcs" : "",
+    "northRoom":{
+        "enterable":"y",
+        "room":"tacoTruckOutside"
+    },
+    "eastRoom":{
+        "enterable":"n"
+    },
+    "southRoom":{
+        "enterable":"n"
+    },
+    "westRoom":{
+        "enterable":"n"
+    },
+    "upRoom":{
+        "enterable":"n"
+    },
+    "downRoom":{
+        "enterable":"n"
     }
+}

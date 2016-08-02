@@ -23,15 +23,15 @@
 
 	<div id="contentWrapper" data-ng-controller="gameController">
 		<div id="outputWindow">
-			<p>{{roomDesc}}</p>
+			<!--<p>{{roomDesc}}</p>
 			<p>{{currOutput}}</p>
-			<p >{{player.lastCommands}}</p> 
+			<p >{{player.lastCommands}}</p> -->
+			<div ng-repeat= "output in textList track by $index"> 
+				<p>{{output}}</p>
 		</div>
 		<div id="inputWindow">
-			<p>outout</p>
 			<form ng-submit="submit()" >
-				enter text and hit enter:
-				<input type="text" ng-model="currInput" name="commands"/>
+				<input id="inputBox" type="text" ng-model="currInput" name="commands" placeholder="enter text and hit enter:"/>
 			</form>
 		</div>
 		<!--<div id="headerWrapper" data-ng-include="'pages/header.html'"></div>-->

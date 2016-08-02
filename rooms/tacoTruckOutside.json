@@ -1,0 +1,30 @@
+{ 
+    "text":"The taco truck itself is (or rather was) a dull white. Now however, cacophony of burnt sienna and tarpei beige dust coat the once noble calorie wagon. There is a side door here, with which you can ENTER the TRUCK. There is also a menu with faded pictures of edible wares.", 
+    "items":[{
+        "id":"menu",
+        "takeable":"n",
+        "takeMessage":"You don't want to take this with you",
+        "desc":"The menu is written in spanish. Though you can't read it, you believe there is great wisdom written here",
+        "possibleActions":[]
+        }],
+    "npcs" : "",
+    "northRoom":{
+        "enterable":"y",
+        "room":"tacoTruckOutside"
+    },
+    "eastRoom":{
+        "enterable":"n"
+    },
+    "southRoom":{
+        "enterable":"firstRoom"
+    },
+    "westRoom":{
+        "enterable":"n"
+    },
+    "upRoom":{
+        "enterable":"n"
+    },
+    "downRoom":{
+        "enterable":"n"
+    }
+}
